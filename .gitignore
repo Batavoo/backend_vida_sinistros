@@ -1,0 +1,84 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Variáveis de ambiente / segredos
+.env
+
+# Bytecode / cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compilados / extensões
+*.so
+*.pyd
+*.dll
+
+# Build & distribuição
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+*.egg
+
+# Ferramentas de dependência
+pip-wheel-metadata/
+pip-log.txt
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyre/
+.hypothesis/
+
+# Linters / análise
+.ruff_cache/
+.pylint.d/
+.pytype/
+
+# Logs
+logs/
+*.log
+
+# Cache genérico
+.cache/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SO / Diversos
+.DS_Store
+Thumbs.db
+
+# Bancos locais (caso algum SQLite seja gerado)
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Benchmarks
+.benchmarks/
+
+# Lockfiles opcionais (descomente se não quiser versionar)
+# poetry.lock
+# Pipfile.lock
+
+# Dados grandes ou sensíveis (remova se quiser versionar o XLSX)
+# sinistros_simplificado.xlsx
